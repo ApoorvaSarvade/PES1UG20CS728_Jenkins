@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                    sh "g++ demo.cpp -o ofile"
+                    sh "g++ demooo.cpp -o ofile"
                     build job: "PES1UG20CS728-1"
                  }
         }
